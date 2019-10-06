@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-notes';
+  title: string = 'Insomnia\'s Angular Notes';
+
+  components: Array<any> = [
+    "Button",
+    "Toggle",
+    "tmp 1",
+    "tmp 2",
+    "tmp 3",
+    "tmp 4",
+    "tmp 5"
+  ];
 }
