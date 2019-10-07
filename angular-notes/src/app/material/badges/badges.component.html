@@ -1,0 +1,22 @@
+<div class="bg">
+  <div><span matBadge="5">Notifications</span></div>
+
+  <div><span matBadge="5" matBadgePosition="below before">Below Before</span></div>
+  <div><span matBadge="5" matBadgePosition="below after">Below After</span></div>
+  <div><span matBadge="5" matBadgePosition="above before">above before</span></div>
+  <div><span matBadge="5" matBadgePosition="above after">above after</span></div>
+  <div><span matBadge="5" matBadgePosition="">Notifications</span></div>
+
+  <div><span matBadge="5" matBadgeSize="small">Small Badge</span></div>
+  <div><span matBadge="5" matBadgeSize="medium">Medium Badge</span></div>
+  <div><span matBadge="5" matBadgeSize="large">Large Badge</span></div>
+
+
+  <div><span matBadge="5" matBadgeColor="primary">Primary</span></div>
+  <div><span matBadge="5" matBadgeColor="accent">Accent</span></div>
+  <div><span matBadge="5" matBadgeColor="warn">Warn</span></div>
+
+  <div><mat-icon matBadge="5" matBadgeColor="warn" matBadgeSize="small">grade</mat-icon></div>
+
+  <div><span [matBadge]="notifications" matBadgeColor="primary" matBadgeSize="small" [matBadgeHidden]="notifications===0">matBadgeHidden</span></div>
+</div>

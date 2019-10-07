@@ -1,5 +1,12 @@
 div {
+  margin: 20px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
+
+div button {
+  margin: 20px;
+}
+

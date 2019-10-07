@@ -1,0 +1,26 @@
+<div>
+  <mat-button-toggle #togglebutton>Toggle</mat-button-toggle>
+  {{togglebutton.checked}}
+  <mat-button-toggle disableRipple checked>DisableRipple Toggle</mat-button-toggle>
+  <mat-button-toggle disabled>Disable Toggle</mat-button-toggle>
+</div>
+
+<div>
+  <mat-button-toggle-group #toggleGroup="matButtonToggleGroup">
+    Toggle Single Group
+    <mat-button-toggle value="Angular">Angular</mat-button-toggle>
+    <mat-button-toggle value="React">React</mat-button-toggle>
+    <mat-button-toggle value="Vue">Vue</mat-button-toggle>
+    {{toggleGroup.value}}
+  </mat-button-toggle-group>
+</div>
+
+<div>
+  <mat-button-toggle-group #toggleGroup2="matButtonToggleGroup" multiple>
+    Toggle Multiple Group
+    <mat-button-toggle value="Angular">Angular</mat-button-toggle>
+    <mat-button-toggle value="React">React</mat-button-toggle>
+    <mat-button-toggle value="Vue">Vue</mat-button-toggle>
+    {{toggleGroup2.value}}
+  </mat-button-toggle-group>
+</div>

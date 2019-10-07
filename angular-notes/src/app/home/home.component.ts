@@ -17,9 +17,9 @@ export class HomeComponent implements OnInit {
   components: Array<RouterObject> = [
     new RouterObject("Typography", "/typography"),
     new RouterObject("Button", "/button"),
-    new RouterObject("button", "/button"),
-    new RouterObject("button", "/button"),
-    new RouterObject("button", "/button"),
+    new RouterObject("Toggle", "/toggle"),
+    new RouterObject("Icon", "/icon"),
+    new RouterObject("Badges", "/badges"),
     new RouterObject("button", "/button"),
   ];
 }
