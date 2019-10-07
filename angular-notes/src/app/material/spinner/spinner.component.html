@@ -1,0 +1,12 @@
+<div>
+  <mat-progress-spinner value="40"></mat-progress-spinner>
+</div>
+
+<div>
+  <mat-spinner></mat-spinner>
+</div>
+
+<div>
+  <mat-spinner *ngIf="loading" color="accent"></mat-spinner>
+  <button color="accent" mat-flat-button (click)="loadData()">Load data!</button>
+</div>

@@ -20,6 +20,7 @@ export class HomeComponent implements OnInit {
     new RouterObject("Toggle", "/toggle"),
     new RouterObject("Icon", "/icon"),
     new RouterObject("Badges", "/badges"),
-    new RouterObject("button", "/button"),
+    new RouterObject("Spinner", "/spinner"),
+    new RouterObject("Toolbar", "/toolbar"),
   ];
 }

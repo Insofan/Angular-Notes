@@ -6,6 +6,8 @@ import {TypographyComponent} from './material/typography/typography.component';
 import {ButtonToggleComponent} from './material/button-toggle/button-toggle.component';
 import {IconComponent} from './material/icon/icon.component';
 import {BadgesComponent} from './material/badges/badges.component';
+import {SpinnerComponent} from './material/spinner/spinner.component';
+import {ToolbarComponent} from './material/toolbar/toolbar.component';
 
 
 const routes: Routes = [
@@ -15,6 +17,8 @@ const routes: Routes = [
   {path: 'toggle', component: ButtonToggleComponent},
   {path: 'icon', component: IconComponent},
   {path: 'badges', component: BadgesComponent},
+  {path: 'spinner', component: SpinnerComponent},
+  {path: 'toolbar', component: ToolbarComponent},
 ];
 
 @NgModule({
