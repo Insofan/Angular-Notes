@@ -1,0 +1,5 @@
+<mat-grid-list cols="5" rowHeight="2:1" gutterSize="20">
+  <mat-grid-tile *ngFor="let component of components; index as i">
+    <button mat-raised-button [routerLink]="component.route">{{component.title}}</button>
+  </mat-grid-tile>
+</mat-grid-list>
